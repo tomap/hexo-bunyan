@@ -44,15 +44,6 @@ function objCopy(from, to) {
 
 // ---- tests
 
-test('--version', function (t) {
-    var version = require('../package.json').version;
-    exec(BUNYAN + ' --version', function (err, stdout, stderr) {
-        t.ifError(err)
-        t.equal(stdout, 'bunyan ' + version + '\n');
-        t.end();
-    });
-});
-
 test('--help', function (t) {
     exec(BUNYAN + ' --help', function (err, stdout, stderr) {
         t.ifError(err)
