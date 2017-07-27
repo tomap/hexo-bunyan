@@ -1,5 +1,5 @@
-[![npm version](https://img.shields.io/npm/v/bunyan.svg?style=flat)](https://www.npmjs.com/package/bunyan)
-[![Build Status](https://travis-ci.org/trentm/node-bunyan.svg?branch=master)](https://travis-ci.org/trentm/node-bunyan)
+[![npm version](https://badge.fury.io/js/hexo-bunyan.svg)](https://badge.fury.io/js/hexo-bunyan)
+[![Build Status](https://travis-ci.org/hexojs/hexo-bunyan.svg?branch=1.x)](https://travis-ci.org/hexojs/hexo-bunyan)
 
 Bunyan is **a simple and fast JSON logging library** for node.js services:
 
